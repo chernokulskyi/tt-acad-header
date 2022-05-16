@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap");
+
+html {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Necessary-Icons";
+  src: url("../../assets/necessary-icons.woff");
+  font-style: normal;
+}
+
+.icon {
+  font-family: "Necessary-Icons";
+  font-style: normal;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  font-size: 14px;
+}
+
+.top .icon {
+  display: inline-block;
+  width: 1.3em;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.icon--angle::before {
+  content: "\e900";
+}
+
+.icon--link::before {
+  content: "\e901";
+}
+
+.icon--facebook::before {
+  content: "\e902";
+}
+
+.icon--linkedin::before {
+  content: "\e903";
+}
+
+.icon.icon--search {
+  font-size: 15px;
+}
+
+.icon--search::before {
+  content: "\e904";
+}
+
+.icon--twitter::before {
+  content: "\e905";
+}
+
+

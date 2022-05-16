@@ -1,0 +1,28 @@
+@import "utils/reset.css";
+@import "utils/fonts.css";
+@import "utils/dropdown.css";
+
+@import "blocks/top.css";
+@import "blocks/header.css";
+
+/* variables */
+:root {
+  --color-body: #edf3f9;
+  --color-blue: #43667c;
+  --color-orange: #d8770e;
+  --color-light: #f9f9f9;
+  --color-gray: #666666;
+  --color-white: #fff;
+}
+
+/* general */
+body {
+  background-color: var(--color-body);
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 960px;
+  background-color: var(--color-white);
+}
